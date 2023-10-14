@@ -25,10 +25,22 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+// eslint-disable-next-line no-unused-vars
+import clever_programmer from "./company/clever_programmer.png"
+// eslint-disable-next-line no-unused-vars
+import nazaweb from './company/nazaweb.png'
+// eslint-disable-next-line no-unused-vars
+import projectfs from './company/FS.ico'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+// eslint-disable-next-line no-unused-vars
+import uniswap from './uniswap.png'
+// eslint-disable-next-line no-unused-vars
+import prospective from './prospective.png'
+// eslint-disable-next-line no-unused-vars
+import whatsapp from './whatsapp.png'
 
 export {
   logo,
@@ -59,4 +71,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  clever_programmer,
+  nazaweb,
+  projectfs,
+  uniswap,
+  prospective,
+  whatsapp
 };

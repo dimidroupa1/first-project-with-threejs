@@ -15,14 +15,19 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    // eslint-disable-next-line no-unused-vars
+    clever_programmer,
+    // eslint-disable-next-line no-unused-vars
+    nazaweb,
+    // eslint-disable-next-line no-unused-vars
+    projectfs,
+    // eslint-disable-next-line no-unused-vars
+    uniswap,
+    // eslint-disable-next-line no-unused-vars
+    prospective,
+    // eslint-disable-next-line no-unused-vars
+    whatsapp
   } from "../assets";
   
   export const navLinks = [
@@ -116,11 +121,22 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Founder",
+      company_name: "ProjectFS",
+      icon: projectfs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Searching for clients, managing operational issues, managing the development team.",
+      ],
+    },
+    {
+      title: "React.js Developer, Smart-Contract Developer, Back-end Developer ",
+      company_name: "NazaWEb",
+      icon: nazaweb,
+      iconBg: "#E6DEDD",
+      date: "Jan 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,38 +146,12 @@ import {
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Clever Programmer",
+      icon: clever_programmer,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,16 +188,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Uniswap Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web3 project with which you can transfer money from one crypto-wallet to another.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +205,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: uniswap,
+      source_code_link: "https://github.com/dimidroupa1/uniswap-clone-web3",
     },
     {
-      name: "Job IT",
+      name: "Prospective",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web3 project is developed on the basis of the Tron blockchain on which you can buy NFTs and upgrade them to more expensive ones",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "web3",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: prospective,
+      source_code_link: "https://github.com/dimidroupa1",
     },
     {
-      name: "Trip Guide",
+      name: "WhatsApp Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A project where you can communicate with people through messages",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "styled-components",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: whatsapp,
+      source_code_link: "https://github.com/dimidroupa1/whatsapp-clone",
     },
   ];
   
